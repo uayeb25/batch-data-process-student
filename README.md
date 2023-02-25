@@ -18,3 +18,61 @@ la variable DATA que ya se cargo en el ```main``` es una arreglo donde cada obje
 }
 
 ```
+
+## Procedimiento solicitado:
+
+De esa estructura debe de crear las siguientes clases, recuerde que en clases no creamos atributos que fueran multivaluados o arreglos, procure que todos los atributos se valores y recuerde que debe de exister una relacion entre estas clases. (10 puntos):
+- Careers 
+- Courses 
+- Students
+- Enrollments
+
+Considera las operaciones del CRUD que sean necesarias implementar para hacer sync con la base de datos de mongodb en la plataforma de Atlas. posiblemente no todas las clases ocupen todas las operaciones. (10 puntos)
+
+Una vez que ya hayas creado esas clases, toca trabajar en el proceso de migracion de datos, este esta propuesto en el metodo ```main``` del archivo ```app.py``` (30 puntos)
+
+```python
+
+pipeline.create_careers()
+pipeline.create_students()
+pipeline.create_enrollments()
+
+```
+
+Cada una de esas lineas hacen lo que describe la invocacion de sus metodos. muy probable ocupen como parametro el objeto de la BD, haga los cambios respectivos. 
+
+Por ultimo, cree los siguientes reportes partiendo de los datos almacenados en la collection de enrollments:
+
+- Cantidad de Estudiantes por carrera, la estructura podria ser (15 puntos):
+```python
+
+## Aqui se deberian de ver en total todas las carreras
+{
+    "carrera 1": 100
+    , "carrera 2": 331 
+}
+
+```
+
+- Historicamente por curso, cuantos estudiantes han reprobado y aprobado. la estructura podria ser (20 puntos):
+```python
+
+## Aqui se deberian de ver en total todas las carreras
+{
+    "Matematicas": { "aprobados": 122, "reprobados": 22 }
+    , "OOP": { "aprobados": 30, "reprobados": 0 } 
+}
+
+```
+
+## Observaciones: 
+
+- Cuidado con ejecutar su codigo varias veces y duplicar data en las collections, esto podria afectar los numeros que se solicitan en su reporte. (5 puntos)
+-  Cuando termine de migrar los datos de carreras y cursos, deberian de existir unicamente valores unicos en cada una de ellas. (5 puntos)
+
+## Que debe de entregar en su tarea:
+
+- En un documento de word, link de su repositorio donde se encuentra la solucion de su examen. adicione el ID de su ultimo commit. en caso que se encuentren commits despues de la hora de examen sera calificado con cero.
+- Su document de word debe de tener como nombre de archivo: NUMEROCUENTA_NOMBRE1_APELLIDO1.docx
+- El reporsitorio debe de ser PUBLICO
+- Cree una carpeta que llame imagenes y guarde capturas de pantallas de las colecciones con los resultados migrados (5 puntos)
