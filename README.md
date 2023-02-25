@@ -27,6 +27,8 @@ De esa estructura debe de crear las siguientes clases, recuerde que en clases no
 - Students
 - Enrollments
 
+(*pista: un enrollment representa un estudiante y un curso. junto su estado si aprobo o no*)
+
 Considera las operaciones del CRUD que sean necesarias implementar para hacer sync con la base de datos de mongodb en la plataforma de Atlas. posiblemente no todas las clases ocupen todas las operaciones. (10 puntos)
 
 Una vez que ya hayas creado esas clases, toca trabajar en el proceso de migracion de datos, este esta propuesto en el metodo ```main``` del archivo ```app.py``` (30 puntos)
@@ -75,6 +77,6 @@ Estos dos reportes deberian de ser invocados despues de las lineas de la migraci
 ## Que debe de entregar en su tarea:
 
 - En un documento de word, link de su repositorio donde se encuentra la solucion de su examen. adicione el ID de su ultimo commit. en caso que se encuentren commits despues de la hora de examen sera calificado con cero.
-- Su document de word debe de tener como nombre de archivo: NUMEROCUENTA_NOMBRE1_APELLIDO1.docx
+- Su documento de word debe de tener como nombre de archivo: NUMEROCUENTA_NOMBRE1_APELLIDO1.docx
 - El reporsitorio debe de ser PUBLICO
 - Cree una carpeta que llame imagenes y guarde capturas de pantallas de las colecciones con los resultados migrados (5 puntos)
