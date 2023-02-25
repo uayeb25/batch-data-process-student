@@ -65,6 +65,8 @@ Por ultimo, cree los siguientes reportes partiendo de los datos almacenados en l
 
 ```
 
+Estos dos reportes deberian de ser invocados despues de las lineas de la migracion. trate de programar estos en la clase mas adecuada y con el tipo de metodo mas apropiado. 
+
 ## Observaciones: 
 
 - Cuidado con ejecutar su codigo varias veces y duplicar data en las collections, esto podria afectar los numeros que se solicitan en su reporte. (5 puntos)
