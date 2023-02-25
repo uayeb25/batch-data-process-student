@@ -1,6 +1,8 @@
 # Examen OOP I
 
-![Python and MongoDB](head.jpg)
+<p align="center">
+  <img src="head.jpg" alt="Python and Mongo" style="text-align:center" />
+</p>
 
 En este proyectos cargamos mediante un proceso BATCH hecho en python los datos que se encuentran en ``` classes.data.DATA ``` en diferentes collections de una MongoDB
 
