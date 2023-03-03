@@ -76,7 +76,7 @@ Estos dos reportes deberian de ser invocados despues de las lineas de la migraci
 ## Observaciones: 
 
 - Cuidado con ejecutar su codigo varias veces y duplicar data en las collections, esto podria afectar los numeros que se solicitan en su reporte. (5 puntos)
--  Cuando termine de migrar los datos de carreras y cursos, deberian de existir unicamente valores unicos en cada una de ellas. (5 puntos)
+-  Cuando termine de migrar los datos de carreras y cursos, deberian de existir valores unicos en cada una de ellas. (5 puntos)
 
 ## Que debe de entregar en su tarea:
 
